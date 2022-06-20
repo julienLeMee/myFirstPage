@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(/MenuRandom/ressources/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navBar ul img {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    filter: invert(100%);
+  }
+  
+  .navBar ul {
+    display: flex;
+    list-style: none;
+    position: fixed;
+    background-color: rgba(23, 23, 23, 0.8);
+    width: 100vw;
+    justify-content: end;
+    z-index: 1;
+  }
+  
+  .navBar ul li {
+    margin: 15px;
+    margin-top: 10px;
+  }
+  
+  .navBar ul img:hover {
+    filter: invert(70%);
+  }
+
+  .line1 {
+    color: #fff;
+    position: absolute;
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    top: 30px;
+    right: 200px;
+    left: 100px;
+    z-index: 2;
+  }
+
+
+.logo-css {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-css img {
+    width: 70px;
+    height: 70px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+
+}
+
+.title-css {
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    top: 80px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 40px;
+    margin-left: 10px;
+    color: #fff;
+    padding: 10px;
+}
+
+.footer-menu ul img {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.footer-menu ul {
+    display: flex;
+    list-style: none;
+    position: relative;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #333;
+}
+
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: auto ;
+    justify-content: center;
+}
+
+
+.card-text {
+    font-size: 15px;
+}
+
+.card-header {
+    text-align: center;
+    color: #fff;
+}
+
+.cardCellule{
+    background-color: rgba(250, 250, 250, 0.2);
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px #fff;
+}
+
+.cardTitle {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.reveal {
+    background-color: rgba(250, 250, 250, 0.8);
+}
+
+
+
+/* -------------------------------------------- RESPONSIVE ----------------------------------------------- */
+
+
+@media screen and (max-width: 700px) {
+
+    .navBar ul img {
+        margin-top: 15px;
+      }
+      
+      .navBar ul {
+        justify-content: center;
+      }
+      
+      .navBar ul li {
+        margin: 15px;
+        margin-top: 10px;
+      }
+      
+      .line1 {
+        display: none;
+      }
+
+}
