@@ -62,7 +62,7 @@ span {
   width: 1000px;
   height: 1000px;
   display: flex;
-  position: fixed;
+  position: absolute;
   right: -800px;
   transform: rotate(45deg);
   border: 0.1px solid rgba(255, 255, 255, 0.2);
@@ -73,7 +73,7 @@ span {
 .square2 {
   width: 1000px;
   height: 1000px;
-  position: fixed;
+  position: absolute;
   left: 200px;
   top: 550px;
   transform: rotate(45deg);
