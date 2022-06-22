@@ -5,7 +5,7 @@
 }
 
 body {
-  background: url(/MenuRandom/ressources/bg2.jpg);
+  background: url(/myFirstPage/ressources/bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -144,7 +144,7 @@ a {
 }
 
 .css:hover {
-  background-image: url(/MenuRandom/ressources/CSS3_logo_and_wordmark.svg);
+  background-image: url(/myFirstPage/ressources/CSS3_logo_and_wordmark.svg);
   background-size: 50px 50px;
   background-repeat: no-repeat;
   background-position: center;
@@ -155,7 +155,7 @@ a {
 }
 
 .js:hover {
-  background-image: url(/MenuRandom/ressources/Javascript-736400_960_720.png);
+  background-image: url(/myFirstPage/ressources/Javascript-736400_960_720.png);
   background-size: 50px 50px;
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -166,7 +166,7 @@ a {
 }
 
 .ruby:hover {
-  background-image: url(/MenuRandom/ressources/Ruby_logo.svg);
+  background-image: url(/myFirstPage/ressources/Ruby_logo.svg);
   background-size: 50px 50px;
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -177,7 +177,7 @@ a {
 }
 
 .github:hover {
-  background-image: url(/MenuRandom/ressources/github-logo.png);
+  background-image: url(/myFirstPage/ressources/github-logo.png);
   background-size: 50px 50px;
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -188,7 +188,7 @@ a {
 }
 
 .break:hover {
-  background-image: url(/MenuRandom/ressources/space-invaders.png);
+  background-image: url(/myFirstPage/ressources/space-invaders.png);
   background-size: 50px 50px;
   border-radius: 50%;
   background-repeat: no-repeat;
