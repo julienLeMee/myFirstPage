@@ -171,6 +171,7 @@ span {
 .navBar ul li {
   margin: 15px;
   margin-top: 10px;
+  z-index: 4;
 }
 
 .navBar ul img:hover {
