@@ -324,6 +324,7 @@ p {
   font-family: "VT323", monospace;
   width: 75vw;
   text-align: center;
+  margin-bottom : 300px;
 }
 
 .footer {
