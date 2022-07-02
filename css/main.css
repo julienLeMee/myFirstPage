@@ -23,13 +23,14 @@ body {
 .profilPicture {
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 
 .profilPicture img {
   width: 40px;
   height: 40px;
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   align-items: center;
   margin: 5px 5px 5px 20px;
 }
