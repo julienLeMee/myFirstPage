@@ -192,6 +192,7 @@ span {
   justify-content: center;
   width: 100%;
   margin-top: 450px;
+  z-index: -1;
 }
 
 .skills h1 {
