@@ -157,6 +157,7 @@ span {
   display: flex;
   flex-direction: row;
   position: fixed;
+  filter: blur(5px);
 }
 
 .navBar ul {
@@ -324,7 +325,7 @@ p {
   font-family: "VT323", monospace;
   width: 75vw;
   text-align: center;
-  margin-bottom : 300px;
+  margin-bottom : 400px;
 }
 
 .footer {
