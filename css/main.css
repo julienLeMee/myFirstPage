@@ -157,7 +157,6 @@ span {
   display: flex;
   flex-direction: row;
   position: fixed;
-  filter: blur(5px);
 }
 
 .navBar ul {
